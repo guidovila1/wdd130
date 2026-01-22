@@ -1,10 +1,17 @@
-nav {
-    background-color: #28537e;
-    padding: 1rem;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-main {
-    max-width: 840px
+body {
+    font-size: 16px;
+    font-family: arial, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 10px;
 }
 
 nav a {
@@ -15,21 +22,11 @@ nav a {
 
 h1 {
     color: steelblue;
+    padding: 0.5rem;
 }
 
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0, 0, 0/0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-}
-
-aside img {
-    width: 200px;
-    height: auto;
+main {
+    max-width: 640px
 }
 
 main img {
@@ -38,10 +35,31 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
+
 }
 
 p {
-    padding: 0;
+    margin: 1.5rem;
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+    position: relative;
+
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    border: 1px red;
+
+}
+
+aside h2 {
+    position: absolute;
 }
 
 footer {
@@ -49,4 +67,21 @@ footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+}
+
+.move {
+    margin-top: 30px;
+}
+
+.indent {
+    padding-left: 2rem;
 }
