@@ -1,7 +1,8 @@
 :root {
-    --primary-color: #8dc2ebc5;
+    --primary-color: rgb(141 194 235/77%);
     --secondary-color: #f4a261;
-    --accent1-color: #207191;
+    --accent1-color: rgb(32 113 145);
+
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sas-serif;
@@ -40,8 +41,8 @@ nav,
 p,
 section,
 article {
-    margin: 0px;
-    padding: 0px;
+    margin: 2px;
+    padding: 2px;
 }
 
 h1 {
@@ -78,13 +79,6 @@ footer {
 }
 
 /*  class Selector */
-.box {
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 10%);
-    padding: 1rem;
-    background-color: #eee;
-    color: #000;
-}
 
 .hero {
     position: relative;
@@ -92,7 +86,8 @@ footer {
 }
 
 .hero img {
-    display: block;
+
+    float: right;
     width: 100%;
     height: auto;
 }
