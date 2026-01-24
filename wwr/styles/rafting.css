@@ -99,12 +99,19 @@ footer {
 
 .hero article img {
 
+    position: absolute;
     float: right;
     width: 125px;
 
     margin: 25px;
     background-color: #eee;
 
+}
+
+.hero h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .socialmedia {
