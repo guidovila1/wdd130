@@ -1,9 +1,9 @@
 :root {
     --primary-color: rgb(141 194 235/77%);
-    --secondary-color: #f4a261;
+    --secondary-color: #fbfdfe;
     --accent1-color: rgb(32 113 145);
 
-    --accent2-color: #e9c46a;
+    --accent2-color: #044367;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sas-serif;
 
@@ -58,7 +58,7 @@ h1 {
 h2 {
     margin-top: 1px;
     padding: 16px;
-    background-color: #207191;
+    background-color: var(--accent2-color);
     text-align: center;
 }
 
@@ -68,7 +68,7 @@ article {
     left: 12%;
 
     width: 80%;
-    color: aqua;
+    color: var(--secondary-color);
     background-color: #207191;
     opacity: 0.8;
     text-align: left;
