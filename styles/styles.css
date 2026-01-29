@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+header,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 body {
     font-size: 16px;
     font-family: arial, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -11,22 +17,27 @@ body {
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
-    padding: 10px;
     display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
 }
 
 h1 {
     color: steelblue;
     padding: 0.5rem;
-}
+    border-bottom: 2px solid steelblue;
+    top: 35px;
 
-main {
-    max-width: 640px
 }
 
 main img {
@@ -69,6 +80,13 @@ footer {
     text-align: center;
 }
 
+header,
+.grid,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
 /* Class Selectors */
 .box {
     margin: 1rem;
@@ -84,4 +102,21 @@ footer {
 
 .indent {
     padding-left: 2rem;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
