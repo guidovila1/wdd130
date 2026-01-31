@@ -5,7 +5,7 @@
 
     --accent2-color: #044367;
     --heading-font: "Times New Roman", "Georgia", serif;
-    --body-font: Arial, Helvetica, sas-serif;
+    --body-font: 2rem;
 
 }
 
@@ -22,7 +22,7 @@
     align-items: center;
     padding: 15px;
     border-bottom: 1px solid #ccc;
-    background-color: steelblue;
+    background-color: var(--accent2-color);
 }
 
 header img {
@@ -41,10 +41,10 @@ header img {
 .navigation li a {
 
     padding: 6px 12px;
-    border: 1px solid #000;
+    border: 1px solid var(--primary-color);
     text-decoration: none;
-    background-color: white;
-    font-size: 2rem;
+    background-color: var(--accent1-color);
+    font-size: var(--body-font);
 
 }
 
