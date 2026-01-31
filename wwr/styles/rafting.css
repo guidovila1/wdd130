@@ -32,37 +32,52 @@ header img {
 }
 
 .hero {
-    padding: 40px 20px;
-    text-align: center;
-    left: 50%;
-    color: #ccc;
-    min-height: 400px;
-    background-size: cover;
-    background-position: center;
+    position: relative;
+    width: 100%;
+    border: 1px solid rgb(255, 0, 166);
+
 }
 
-.hero-content {
+.hero img {
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}
+
+.hero h1 {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    color: white;
+    font-size: 2.5rem;
+    margin: 0;
+
+}
+
+.hero article {
+    position: absolute;
+    top: 350px;
+    left: 500px;
+    width: 60%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: white;
+    text-align: left;
     display: flex;
     align-items: center;
-    gap: 20px;
-    border: 1px solid white;
-    padding: 20px;
-    align-items: center;
-    color: white;
-    max-width: auto;
+    gap: 15px;
     font-size: 1.5rem;
 
 }
 
-.hero-content p {
-    flex: 1;
-}
-
-.hero-content img {
-    width: 200px;
-    padding: 10px 10px;
-    border: 1px solid #ccc;
-
+.hero article img {
+    float: right;
+    margin-left: 30px;
+    width: 250px;
+    height: auto;
 }
 
 .history {
