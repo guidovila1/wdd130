@@ -141,7 +141,7 @@ header img {
     text-align: center;
 }
 
-footer.socialmedia {
+.socialmedia {
     background-color: steelblue;
     color: white;
     padding: 2rem 1rem;
@@ -151,7 +151,7 @@ footer.socialmedia {
     justify-content: flex-end;
 }
 
-footer.socialmedia nav {
+.socialmedia nav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -159,6 +159,6 @@ footer.socialmedia nav {
 
 }
 
-footer.socialmedia nav div {
+.socialmedia nav div {
     display: flex;
     gap: 15px;
