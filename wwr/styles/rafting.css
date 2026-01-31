@@ -4,7 +4,7 @@
     --accent1-color: rgb(32 113 145);
 
     --accent2-color: #044367;
-    --heading-font: "Times New Roman", "Georgia", serif;
+
     --body-font: 2rem;
 
 }
@@ -127,7 +127,6 @@ header img {
     line-height: 1.6;
     color: #333;
     min-width: 200px;
-    font-size: 1.1rem;
 
 }
 
@@ -189,4 +188,5 @@ footer {
 
 .socialmedia {
     text-align: end;
+    text-decoration: none;
 }
