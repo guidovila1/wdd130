@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Guido Alejandro Vila Montano | WDD 130 </title>
+    <meta name="description"
+      content="Guido Alejandro Vila Montano's BYU-Idaho WDD130 course home page">
+    <meta name="author" content="Guido Vila">
+    <link rel="stylesheet" href="styles/poll-form.css">
+
+
+</head>
+
+<body>
+    <header>
+        <h1>WDD130 | HTML Form - User Poll </h1>
+
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" required>
+
+
+                    <label for="useremail">Email:</label>
+                    <input type="text" id="useremail" name="useremail" required>
+                </div>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+
+                    <label for="browser">What is your favorite browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="pet">Do you have a pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+
+                </div>
+                <div class="form-item">
+                    <label for="feedback">List the places you have lived:</label>
+                    <textarea name="feedback" id="feedback" rows="4"
+                      placeholder="Peru,Bolivia, United States,Canada"></textarea>
+                </div>
+
+            </fieldset>
+
+
+            <button type="submit">Submit Poll</button>
+
+
+        </form>
+
+
+    </main>
+
+
+    <footer>
+        <p>©2026 Guido Alejandro Vila Montano, West Jordan, Utah , United States of America</p>
+    </footer>
+</body>
+
+</html>
