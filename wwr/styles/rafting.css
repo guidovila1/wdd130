@@ -3,7 +3,7 @@
     --secondary-color: #fbfdfe;
     --accent1-color: rgb(32 113 145);
 
-    --accent2-color: #044367;
+    --accent2-color: rgb(4, 67, 103);
 
     --body-font: 2rem;
 
@@ -23,6 +23,7 @@ header {
     padding: 15px;
     border-bottom: 1px solid #ccc;
     background-color: var(--accent2-color);
+    color: white;
 }
 
 header img {
@@ -46,6 +47,7 @@ header img {
     text-decoration: none;
     background-color: var(--accent1-color);
     font-size: var(--body-font);
+    color: white;
 
 }
 
@@ -224,8 +226,8 @@ textarea {
 
 button {
     margin: 1rem;
-    background-color: grey;
-    color: #fff;
+    background-color: var(--accent1-color);
+    color: white;
     border: none;
     border-radius: 0.5rem;
     padding: 0.75rem;
@@ -233,7 +235,7 @@ button {
 }
 
 button:hover {
-    background-color: darkgreen;
+    background-color: steelblue;
 }
 
 .radio-1 {
