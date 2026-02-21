@@ -64,7 +64,7 @@ header img {
 .hero {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 800px;
     overflow: hidden;
 }
 
@@ -72,6 +72,7 @@ header img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: brightness(0.6);
 }
 
 .hero h1 {
@@ -81,6 +82,7 @@ header img {
     transform: translateX(-50%);
     color: var(--secondary-color);
     margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
 }
 
@@ -289,7 +291,10 @@ footer p {
     display: flex;
     gap: 25px;
     justify-self: end;
-    text-decoration: none
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 .socialmedia img {
