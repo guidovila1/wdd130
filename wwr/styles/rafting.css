@@ -125,19 +125,6 @@ header img {
     position: static;
 }
 
-.herotrips {
-    position: relative;
-    width: 100%;
-    height: 500px;
-}
-
-.herotrips img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .history {
     margin-top: 20px;
     padding: 3rem 2rem;
@@ -186,7 +173,8 @@ header img {
 
 }
 
-.adventures h2 {
+.adventures h2,
+.adventurestrips h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
     color: steelblue;
@@ -209,14 +197,6 @@ header img {
     text-align: center;
     border: 1px solid steelblue;
 
-}
-
-.adventurestrips h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: steelblue;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 .adventure-gallerytrips {
@@ -273,15 +253,12 @@ header img {
     text-align: center;
 }
 
-.adventure-galleryhome figcaption {
-
-    font-size: 1.5rem;
-
-}
-
+.adventure-galleryhome figcaption,
 .adventure-gallery figcaption {
+
     font-size: 1.5rem;
     text-align: center;
+
 }
 
 footer {
