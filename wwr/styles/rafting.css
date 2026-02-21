@@ -84,7 +84,6 @@ header img {
     color: var(--secondary-color);
     margin: 0;
     z-index: 20;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 
 }
 
@@ -97,7 +96,7 @@ header img {
     margin: 0;
     font-size: 50px;
     z-index: 20;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+
 }
 
 .hero article {
@@ -137,7 +136,7 @@ header img {
 .history h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: steelblue;
+    color: rgb(20, 70, 110);
 }
 
 .history-content {
@@ -177,7 +176,7 @@ header img {
 .adventurestrips h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: steelblue;
+    color: rgb(20, 70, 110);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
