@@ -1,6 +1,6 @@
 :root {
     --primary-color: rgb(141 194 235/77%);
-    --secondary-color: #fbfdfe;
+    --secondary-color: #b21818;
     --accent1-color: rgb(32 113 145);
 
     --accent2-color: rgb(4, 67, 103);
@@ -80,10 +80,23 @@ header img {
     top: 30px;
     left: 50%;
     transform: translateX(-50%);
-    color: var(--secondary-color);
+    color: white;
     margin: 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 20;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 
+}
+
+.hero h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    margin: 0;
+    font-size: 50px;
+    z-index: 20;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
 .hero article {
