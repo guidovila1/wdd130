@@ -355,6 +355,15 @@ button {
 
 }
 
+.hero a {
+    margin: 0;
+    background-color: var(--accent1-color);
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
 button:hover {
     background-color: steelblue;
 }
