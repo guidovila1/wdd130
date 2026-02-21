@@ -61,75 +61,63 @@ header img {
 
 }
 
-.hero,
-.herotrips {
+.hero {
     position: relative;
     width: 100%;
     height: 600px;
-    border: 1px solid black;
     overflow: hidden;
-
 }
 
-.hero img,
-.herotrips img {
+.hero img {
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
     object-fit: cover;
-    z-index: 1;
 }
 
-.hero h1,
-.herotrips h1 {
+.hero h1 {
     position: absolute;
-    z-index: 2;
+    top: 30px;
     left: 50%;
     transform: translateX(-50%);
     color: var(--secondary-color);
     margin: 0;
-}
 
-.hero h1 {
-    top: 30px;
-    font-size: 2.5rem;
-}
-
-.herotrips h1 {
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 5rem;
-    border: 1px solid white;
-    padding: 10px;
 }
 
 .hero article {
     position: absolute;
-    z-index: 3;
-    top: 280px;
+    top: 250px;
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
-    max-width: 900px;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 8px;
-    box-sizing: border-box;
-    color: white;
+    max-width: 800px;
     background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    color: white;
+    z-index: 10;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
+    text-align: center;
+
 }
 
 .hero article img {
-    position: static;
-    width: 250px;
+    float: right;
+    width: 200px;
     height: auto;
-    border-radius: 4px;
+    position: static;
+}
+
+.herotrips {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.herotrips img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .history {
